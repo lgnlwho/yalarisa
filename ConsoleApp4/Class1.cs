@@ -11,6 +11,12 @@ namespace ConsoleApp1
         public string name { get; set; }
         public string form { get; set; }
         public float square { get; set; }
+        public Country(string name, string form, float square)
+        {
+            name = name;
+            form = form;
+            square = square;
+        }
 
     }
 }
