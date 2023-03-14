@@ -17,6 +17,16 @@ namespace ConsoleApp1
             form = form;
             square = square;
         }
+        public Country()
+        {
+            name = "Беларусь";
+            form = "Любая";
+            square = 2222;
+        }
+        public override string ToString()
+        {
+            return $"Название: {name} \nФорма: {form} \nПлощадь : {square}";
+        }
 
     }
 }
